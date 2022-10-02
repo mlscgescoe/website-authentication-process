@@ -1,4 +1,4 @@
-# Login-Page
+# Website Authentication Process
 💻 A responsive Login-page template using HTML, CSS and Javascript.
 
 And below, I am providing the screenshot of this login-page interface.
