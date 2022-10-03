@@ -4,6 +4,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 body {
@@ -52,6 +53,7 @@ header h2 {
   font-family: "Playfair Display", serif;
   color: #3e403f;
 }
+
 header p {
   letter-spacing: 0.05em;
 }
@@ -76,9 +78,11 @@ input[class="form-input"] {
   border-radius: 0px 5px 5px 0px;
   transition: 0.2s linear;
 }
+
 input[id="txt-input"] {
   width: 250px;
 }
+
 input:focus {
   transform: translateX(-2px);
   border-radius: 5px;
@@ -100,9 +104,11 @@ button {
   margin: 7% auto;
   letter-spacing: 0.05em;
 }
+
 .log-in {
   width: 100%;
 }
+
 .submits {
   width: 48%;
   display: inline-block;
@@ -126,11 +132,18 @@ button:hover {
 button:hover {
   animation: ani9 0.4s ease-in-out infinite alternate;
 }
+
 @keyframes ani9 {
   0% {
     transform: translateY(3px);
   }
+
   100% {
     transform: translateY(5px);
   }
+}
+
+a {
+  height: 100%;
+  width: 100%;
 }
