@@ -33,7 +33,7 @@ git clone https://github.com/your-username/website-authentication-process.git
 3. change the present working directory
 
 ```markdown
-cd NumberFinder
+cd website-authentication-process
 ```
 
 5. Make your changes
