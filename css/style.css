@@ -112,14 +112,26 @@ button {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-.log-in {
-  width: 100%;
+.login-button {
+  /* width: 50%;
   color: #252537;
   padding: 0.9rem 1rem;
   background: #fff;
   border-radius: 5px;
   font-size: 0.9rem;
+  left: 50%; */
+  width: 100%;
+  padding: 0.98rem;
+  border: none;
+  background-color: rgb(129, 113, 222);
+  font-size: 0.9rem;
+ 
+  font-family: 'Roboto Condensed', sans-serif;
+  
+ 
+  
 }
+
 
 .other {
   display: flex;
