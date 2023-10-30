@@ -118,9 +118,9 @@ button {
   background: #fff;
   border-radius: 5px;
   font-size: 0.9rem;
+  padding: 0.98rem;
   left: 50%; */
   width: 100%;
-  padding: 0.98rem;
   border: none;
   background-color: rgb(129, 113, 222);
   font-size: 0.9rem;
@@ -130,6 +130,13 @@ button {
  
   
 }
+
+.login-link {
+  color: white;
+  display: block;
+  padding: 0.98rem;
+}
+
 .submit-button {
   width: 100%;
   display: flex;
