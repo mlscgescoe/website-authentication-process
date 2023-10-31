@@ -23,6 +23,23 @@
     justify-content: center;
   }
 
+  .heartbeat {
+    animation: heartbeat 1s infinite;
+  }
+
+  @keyframes heartbeat {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+
   .card {
     background: white;
     padding: 40px;
@@ -73,6 +90,21 @@
     font-size: 20px;
     margin: 0;
   }
+  .bounce {
+      animation: bounce 0.5s;
+    }
+
+    @keyframes bounce {
+      0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.2);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
 </style>
 
 <body>
@@ -86,5 +118,6 @@
     </div>
   </div>
 </body>
+
 
 </html>
